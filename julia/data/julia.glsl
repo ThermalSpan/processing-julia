@@ -6,7 +6,7 @@ uniform float scale;
 uniform float angle;
 
 float f(float c){
-	return c*c*c;
+	return cos(3.14159 * 0.5 * c);
 }
 
 void main(void) {
